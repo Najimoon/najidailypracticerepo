@@ -7,15 +7,12 @@ resource"aws_vpc" "name" {
 
 resource"aws_vpc" "name" {
 
-    tags =
+    tags ={
         name = "najimoon-vpc02"
-<<<<<<< HEAD
         owner ="prodvpc"
         department ="it"
-
         owner ="devvpc"
-       project ="gutyj"{
-
-
+        project ="gutyj"
     }
+    
 }
