@@ -9,5 +9,6 @@ resource"aws_vpc" "name" {
 
     tags ={
         name = "najimoon-vpc02"
+        owner ="devvpc"
     }
 }
