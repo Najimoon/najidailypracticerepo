@@ -14,4 +14,5 @@ resource"aws_vpc" "name" {
         owner ="devvpc"
         project ="gutyj"
     }
+    
 }
